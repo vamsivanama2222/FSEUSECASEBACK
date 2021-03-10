@@ -1,0 +1,17 @@
+create database FSEUSECASECOM1;
+use FSEUSECASECOM1;
+CREATE TABLE users(
+    firstName varchar(255) not null,
+    lastName varchar(255),
+    gender varchar(255) not null,
+    dob DATE,
+    email varchar(255) not null,
+   password varchar(255) not null,
+   primary key(email)
+);
+
+create table usertweets(
+userName varchar(255),
+userEmail varchar(255),
+tweetMsg varchar(255)
+);
